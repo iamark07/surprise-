@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fjalla+One&family=Great+Vibes&family=Lobster+Two&family=Mooli&family=PT+Sans+Narrow&family=Pacifico&family=Poppins:wght@300&family=Rajdhani:wght@600&family=Roboto:wght@300&family=Teko&display=swap" rel="stylesheet">
+
+    <!-- rimix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Surprise !</title>
+</head>
+
+<body>
+    <main>
+
+        <div class="page_load">
+            <h1>Please Wait...</h1>
+        </div>
+
+        <!-- <div class="audio">
+            <audio autoplay controls>
+                <source src="audio/WhatsApp Audio 2023-12-31 at 3.34.39 PM.mpeg" type="audio/mpeg">
+            </audio>
+        </div> -->
+
+        <div class="new_year_container">
+            <video class="bg_video" id="bg_video1" loop autoplay muted src="sunset (1080p).mp4"></video>
+            <video class="bg_video hide_video" id="bg_video2" loop muted
+                src="pexels-mohammad-taqi-6057470 (2160p).mp4"></video>
+            <header>
+                <img class="logo" src="WhatsApp Image 2023-12-30 at 12.46.47 PM.jpeg" alt="">
+                <div class="social_media">
+                    <i class="ri-share-line" id="header_share_icon" onclick="pop_social_icons()"></i>
+                    <ul class="header_social" id="show_social_box">
+                        <li>
+                            <a href="https://www.facebook.com/arbazkarimi.karimi?mibextid=308UXlBs9A8XJry9">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/karimi_arbaz?t=g02Zz0J1SqGvfrbi_U1eUQ&s=09">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/arkcoder?igsh=MTF5c21xY3F2ZWw0OA==">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/qr/NV4KUGJ64NPCG1">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div class="form_container">
+                <form action="" onsubmit="return validateForm()">
+                    <div class="input_user">
+                        <label for="input_text" id="input_label">Enter Your Name</label>
+                        <input type="text" id="input_text">
+                        <p></p>
+                    </div>
+                    <input type="submit" value="Enter" id="submit_btn">
+                </form>
+            </div>
+
+            <div class="new_year_message">
+                <h1>Happy New Year <br> <span class="user_name"></span></h1>
+                <div class="sec_message">
+                    <h5><span class="user_name"></span>, may the New Year shower joy and blessings upon you, your family, and loved ones.</h5>
+                </div>
+            </div>
+
+            <div class="sec_message">
+                <h5><span class="user_name"></span>, may the New Year shower joy and blessings upon you, your family, and loved ones.</h5>
+            </div>
+
+            <div class="fire_crakers">
+                <img class="fire_crakers_img" src="Animation - 1703930053000.gif" alt="">
+            </div>
+            
+            <div class="footer">
+                <h5>Made by Arbaz Karimi</h5>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
